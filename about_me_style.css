@@ -1,0 +1,105 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #e9b6fd;
+}
+
+header {
+    background-color: #934caf;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e1a7d4;
+    text-decoration: underline;
+}
+
+nav ul li a:focus {
+    outline: 2px solid #e1a7d4;
+    outline-offset: 2px;
+}
+
+section#about-me {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+section#about-me:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+section#about-me h2 {
+    color: #874caf;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+section#about-me h2:hover {
+    color: #6d3f8c;
+}
+
+section#about-me .intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+section#about-me .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+section#about-me .content div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section#about-me .content div:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2)
+}
+
+section#about-me .content h3 {
+    color: #874caf;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+section#about-me .content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+}
